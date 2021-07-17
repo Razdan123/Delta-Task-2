@@ -1,0 +1,94 @@
+@font-face {
+    font-family: gamefont;
+    src: url('eddie.ttf.ttf');
+}
+
+body {
+    background-image: url("7452.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+body{
+
+    background-color: rgb(183, 224, 185);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    
+}
+
+h1{
+    font-size: 2.8em;
+    text-align: center;
+    font-family: gamefont;
+    color: rgb(255, 255, 255);
+}
+#canvas{
+    border-top:80%;
+    border: solid 5px rgb(209, 178, 4);
+    background-color: white;
+    border-radius: 25px;
+}
+#timer{
+    position: absolute;
+    top: 21%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+#timern{
+    position: absolute;
+    top: 21%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+#your{
+    position: absolute;
+    top: 21%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+#yours{
+    position: absolute;
+    top: 21%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+#high{
+    position: absolute;
+    top: 21%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+#highs{
+    position: absolute;
+    top: 21%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+button{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    color: white;
+    background: none;
+    background-color: #9c27b0;
+    border-radius: 7px;
+    border: 4px solid rgb(250, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(38, 243, 19);
+    border-color: midnightblue;
+  }
