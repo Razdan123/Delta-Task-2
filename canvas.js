@@ -38,7 +38,7 @@ window.requestAnimationFrame(function loop() {
 
   if (x <= 300 && x >= 155 &&  rect.y === 280) {
   console.log("lose");
-  var r = alert("Game Over : Refresh the game to play again!");
+  var r = alert("Game Over : Refresh the game and then press OK to play again!");
   }
 
   if (score % 4 === 0 && score != 0) {
