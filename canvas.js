@@ -122,13 +122,13 @@ window.requestAnimationFrame(function loop() {
       cx= 750;
     }
     if (rect.y === 120 && cx<=330 && cx>=250 && cy<=120) {
-      var r = alert("Game Over : Refresh the game to play again!");
+      var r = alert("Game Over : Refresh the game and then press OK to play again!!");
       if (r == false) {
         window.location.reload();
       }
     }
     if (rect.y === 280 && cx<=330 && cx>=250 && cy>=280) {
-      var r = alert("Game Over : Refresh the game to play again!");
+      var r = alert("Game Over : Refresh the game and then press OK to play again!");
       if (r == false) {
         window.location.reload();
       }
@@ -138,7 +138,7 @@ window.requestAnimationFrame(function loop() {
 
 
   if (z <= 300 && z >= 155 && rect.y === 120 ) {
-    var r = alert("Game Over : Refresh the game to play again!");
+    var r = alert("Game Over : Refresh the game and then press OK to play again!");
     if (r == false) {
       window.location.reload();
     }
